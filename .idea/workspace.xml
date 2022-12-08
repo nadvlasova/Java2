@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce23dc89-54b8-4abc-8dba-3bea438de627" name="Changes" comment="first lesson finish">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson2/ManyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson2/OutException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson2/Throw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson2/Throws.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson2/UncheckedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson2/UnreachableCodeForException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson2/pract/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson2/pract/MyArrayDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson2/pract/MyArraySizeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="ce23dc89-54b8-4abc-8dba-3bea438de627" name="Changes" comment="корректировка gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java2_lessons/src/lesson2/CheckedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson2/CheckedException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +27,30 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6aa3c6fb-564b-4cb3-bd95-b58c1e23b17e" />
+        <option name="url" value="git@github.com:nadvlasova/Java2.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2HsmFqBgtD0VTqCzH0DdJIxLC1b" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -160,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670202758006</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="второй lesson finish">
+      <created>1670458886730</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670458886730</updated>
+    </task>
+    <task id="LOCAL-00003" summary="корректировка gitignore">
+      <created>1670459086384</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670459086384</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +199,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first lesson finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="first lesson finish" />
+    <MESSAGE value="второй lesson finish" />
+    <MESSAGE value="корректировка gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="корректировка gitignore" />
   </component>
 </project>
