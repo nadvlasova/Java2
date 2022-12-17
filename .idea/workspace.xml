@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce23dc89-54b8-4abc-8dba-3bea438de627" name="Changes" comment="lesson 3 finish">
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson4/ArrayListExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson4/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson4/CatComparatorByAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson4/CatComparatorByNameLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson4/Garage/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson4/Garage/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson4/Garage/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson4/Garage/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson4/HashExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson4/HashMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson4/IteratorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson4/Passports.java" afterDir="false" />
+    <list default="true" id="ce23dc89-54b8-4abc-8dba-3bea438de627" name="Changes" comment="lesson 5 finish">
+      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson6/BookerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson6/OkHttpExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson6/UleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson6/innerclass/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson6/socketexample/ClientApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson6/socketexample/ServerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson6/socketexample/UrlConnectionExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -36,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson3" />
+        <entry key="$PROJECT_DIR$" value="lesson4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,26 +69,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/nadezhda/IdeaProjects/Java2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Java2_lessons" />
+      <recent name="$PROJECT_DIR$/Java2_lessons/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IteratorExample">
-    <configuration name="ArrayListExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.ArrayListExamples" />
+  <component name="RunManager" selected="Application.BookerExample">
+    <configuration name="BookerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.BookerExample" />
       <module name="Java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.Garage.*" />
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.Cat" />
+    <configuration name="ClientApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.socketexample.ClientApp" />
       <module name="Java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="lesson6.socketexample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.HashMapExample" />
+    <configuration name="OkHttpExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.OkHttpExamples" />
       <module name="Java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.IteratorExample" />
+    <configuration name="UleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.UleExample" />
       <module name="Java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="lesson6.socketexample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.Garage.Main" />
+    <configuration name="UrlConnectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.socketexample.UrlConnectionExample" />
       <module name="Java2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.Garage.*" />
+          <option name="PATTERN" value="lesson6.socketexample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IteratorExample" />
-        <item itemvalue="Application.HashMapExample" />
-        <item itemvalue="Application.Cat" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ArrayListExamples" />
+        <item itemvalue="Application.BookerExample" />
+        <item itemvalue="Application.OkHttpExamples" />
+        <item itemvalue="Application.UrlConnectionExample" />
+        <item itemvalue="Application.UleExample" />
+        <item itemvalue="Application.ClientApp" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670652853464</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lesson 4 finish">
+      <created>1671150843526</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671150843526</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lesson 5 finish">
+      <created>1671268375100</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671268375100</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +244,8 @@
     <MESSAGE value="второй lesson finish" />
     <MESSAGE value="корректировка gitignore" />
     <MESSAGE value="lesson 3 finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 3 finish" />
+    <MESSAGE value="lesson 4 finish" />
+    <MESSAGE value="lesson 5 finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 5 finish" />
   </component>
 </project>
