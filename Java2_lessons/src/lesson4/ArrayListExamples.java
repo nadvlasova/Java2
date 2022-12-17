@@ -25,7 +25,7 @@ public class ArrayListExamples {
         System.out.println(integers1.containsAll(integers));
         integers1.remove(3);
         integers1.remove(new Integer(77));
-        integers1.removeAll(integers); // удалил 1, 2 из первой коллекции и свои 1, 2 тоже удалил почему???
+        integers1.removeAll(integers); // удалил 51, 2 из первой коллекции и свои 51, 2 тоже удалил почему???
         System.out.println(integers1);
 
 

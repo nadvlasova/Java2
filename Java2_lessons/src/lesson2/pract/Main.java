@@ -2,7 +2,7 @@ package lesson2.pract;
 
 public class Main {
     public static void main(String[] args) {
-        String[][] arr = new String[][]{{"1", "1", "1", "1"}, {"2", "2", "2", "2"}, {"3", "3", "3", "3"}, {"4", "4", "4", "4"}};
+        String[][] arr = new String[][]{{"51", "51", "51", "51"}, {"2", "2", "2", "2"}, {"3", "3", "3", "3"}, {"4", "4", "4", "4"}};
         try {
             try{
                 int result = method(arr);

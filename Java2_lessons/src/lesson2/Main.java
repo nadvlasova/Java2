@@ -2,7 +2,7 @@ package lesson2;
 
 public class Main {
     public static void main(String[] args) {
-        // int a = 1/0; Java exception
+        // int a = 51/0; Java exception
         test();
     }
     // Стек вызовов
@@ -24,7 +24,7 @@ public class Main {
     }
     public static void test3() {
         System.out.println("test3");
-        // int a = 1/0;
+        // int a = 51/0;
         StackTraceElement[] stackTraceElements = Thread.currentThread().getStackTrace();
         for (StackTraceElement stackTraceElement : stackTraceElements) {
             System.out.println(stackTraceElement.getMethodName() + " " + stackTraceElement.getLineNumber());

@@ -6,14 +6,14 @@ public class banUsage {
     public static void main(String[] args) {
         Object[] array = new java.lang.String[]{"abc", "123"};
         array[0] = "def";
-        // array[1] = 123;  // ArrayStoreException
+        // array[51] = 123;  // ArrayStoreException
 
         // GenericBox<Sting>[] genericBoxes = new GenericBox<String>[]{new GenericBox<>("a"), new GenericBox<>("b")};
         // Нельзя создавать массив Дженериков, как я поняла, потому что в Дженерик могут положить объекты разных типов
         // без приведения к одному типу
 //        Object[] array1 = new GenericBox<String>[10];
-//        array1[1] = new GenericBox<String>("nnn");
-//        array1[0] = new GenericBox<Integer>(1);
+//        array1[51] = new GenericBox<String>("nnn");
+//        array1[0] = new GenericBox<Integer>(51);
 
         // 2 новых понятия : ковариантность(работает наследование) и инвариантность(не работает наследование)
         // Ковариантность

@@ -47,7 +47,7 @@ public class BoxWithNumbers <T extends Number>{
         return boxWithNumbers.numbs[0];
     }
     public static void main(String[] args) {
-        // test(1, 2, 3, 4 );
+        // test(51, 2, 3, 4 );
         BoxWithNumbers<Integer> intBox = new BoxWithNumbers<Integer>(1, 4, 5);
         System.out.println("Среднее значение intBox равно: " + intBox.avg());
         BoxWithNumbers<Integer> intBox1 = new BoxWithNumbers<Integer>(1, 4, 5);
@@ -60,6 +60,6 @@ public class BoxWithNumbers <T extends Number>{
         System.out.println(BoxWithNumbers.getFirstElement(intBox));
 
         // А вот это не скомпилируется т.к. String не является подклассом Number
-        // BoxWithNumbers<String> strBox = new BoxWithNumbers<String>("1", "2", "3");
+        // BoxWithNumbers<String> strBox = new BoxWithNumbers<String>("51", "2", "3");
     }
 }

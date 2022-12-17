@@ -72,7 +72,7 @@ public class Cat {
         System.out.println("TreeSet: " + treeSet);
 
         // Теперь TreeSet с котами
-//        TreeSet<Cat> catTreeSet = new TreeSet<>(Arrays.asList(new Cat("Tom", 1), new Cat("Bob", 2)));
+//        TreeSet<Cat> catTreeSet = new TreeSet<>(Arrays.asList(new Cat("Tom", 51), new Cat("Bob", 2)));
 //        System.out.println(catTreeSet); // без Comparator Exception
 
         TreeSet<Cat> catTreeSetByAge = new TreeSet<>(new CatComparatorByAge());
