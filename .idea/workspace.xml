@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce23dc89-54b8-4abc-8dba-3bea438de627" name="Changes" comment="lesson 5 finish">
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson6/BookerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson6/OkHttpExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson6/UleExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson6/innerclass/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson6/socketexample/ClientApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson6/socketexample/ServerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java2_lessons/src/lesson6/socketexample/UrlConnectionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ce23dc89-54b8-4abc-8dba-3bea438de627" name="Changes" comment="lesson 6 finish" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson4" />
+        <entry key="$PROJECT_DIR$" value="lesson5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -225,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671268375100</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="lesson 6 finish">
+      <created>1671320544219</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671320544219</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,6 +243,7 @@
     <MESSAGE value="lesson 3 finish" />
     <MESSAGE value="lesson 4 finish" />
     <MESSAGE value="lesson 5 finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 5 finish" />
+    <MESSAGE value="lesson 6 finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 6 finish" />
   </component>
 </project>
