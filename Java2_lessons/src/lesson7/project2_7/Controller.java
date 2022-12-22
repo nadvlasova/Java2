@@ -7,6 +7,7 @@ public class Controller {
     WeatherModel weatherModel = new AccuweatherModel();
 
     // command это команда выбора периода запроса погоды (1 - сегодня или 2 - на 5 дней)
+
     public void getWeather(String command, String selectCity) throws IOException {
         switch (Functionality.fromValue(command)) {
             case GET_CURRENT_WEATHER:
@@ -14,6 +15,7 @@ public class Controller {
                 break;
             case GET_WEATHER_IN_NEXT_FIVE_DAYS:
                 throw new IOException("Метод в разработке!");
+                // TODO: Добавить 3-ю опцию из Functionality(enum)
         }
 
     }

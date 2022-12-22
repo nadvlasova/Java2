@@ -15,6 +15,7 @@ public class UserInterfaceView {
             String city = scanner.nextLine();
 
             System.out.println("Выбор: 1 - погода на текущий день, 2 - погода на 5 дней, и выход для завершения: ");
+            // TODO: Поддержать 3 пункт меню (вывод из базы) в интерфейсе
             String command = scanner.nextLine();
 
             try {
@@ -28,7 +29,7 @@ public class UserInterfaceView {
         }
 
         public void checkUserInput(String userInput) {
-        // обработать пользовательский ввод выбросить исключение и прервать работу программы
+        // TODO: обработать пользовательский ввод выбросить исключение и прервать работу программы
         }
 
 }

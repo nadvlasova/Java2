@@ -41,15 +41,23 @@ public class AccuweatherModel  implements WeatherModel{
 
             Response response = okHttpClient.newCall(request).execute();
             String responseString = response.body().string();
+            // TODO: Вызвать метод сохранения погоды в базу из DataBaseRepository, предварительно из responseString
+            //  достать нужные данные для создания объекта Weather(Java_2/8/2:13:00)
             System.out.println(responseString);
 
 
         }
         if (period == Period.FIVE_DAYS) {
-            // ПЗ со звездочкой, зайти на accuweather найти api на 5 дней, распарсить для запроса
+            // TODO: ПЗ со звездочкой, зайти на accuweather найти api на 5 дней, распарсить для запроса
         }
 
     }
+
+    @Override
+    public void getSavedWeatherData() {
+        // TODO: Обратиться к DataBaseRepository и вызвать метод getSavedWeatherData
+    }
+
     public String detectCityKey(String selectCity) throws IOException {
         HttpUrl httpUrl = new HttpUrl.Builder()
                 .scheme(PROTOCOL)
@@ -76,7 +84,7 @@ public class AccuweatherModel  implements WeatherModel{
 //        System.out.println(response.body().string());
         System.out.println(cityKey);
         return cityKey;
-        // ПЗ здесь вывести данные в читабельном виде, в идеале создать отдельный класс
+        // TODO: ПЗ здесь вывести данные в читабельном виде, в идеале создать отдельный класс
         // полученного json объекта cityKey, распарсить и сделать красивый вывод погоды
     }
 
